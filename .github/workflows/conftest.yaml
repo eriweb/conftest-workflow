@@ -1,0 +1,11 @@
+name: conftest
+on:
+  push:
+  workflow_dispatch:
+jobs:
+  conftest:
+    runs-on: ubuntu-latest
+    name: conftest
+    steps:
+      - uses: terbolous/action-conftest@master
+      - run: ls
