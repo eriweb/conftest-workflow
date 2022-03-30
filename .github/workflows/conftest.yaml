@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest
     name: conftest
     steps:
-      - uses: terbolous/action-conftest@master
+      - uses: terbolous/action-conftest@main
       - run: ls
