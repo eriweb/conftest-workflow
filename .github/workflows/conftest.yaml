@@ -7,5 +7,6 @@ jobs:
     runs-on: ubuntu-latest
     name: conftest
     steps:
+      - uses: actions/checkout@v2
       - uses: terbolous/action-conftest@main
       - run: ls
