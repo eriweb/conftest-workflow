@@ -8,5 +8,4 @@ jobs:
     name: conftest
     steps:
       - uses: actions/checkout@v2
-      - uses: terbolous/action-setup-conftest@main
-      - run: conftest
+      - uses: terbolous/action-conftest@main
